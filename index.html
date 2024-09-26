@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vivid Gems</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="img/img-logo.png" alt="Vivid Gems logo">
+      </div>
+      <nav>
+        <ul>
+          <li>Преимущества</li>
+          <li>Каталог</li>
+          <li>Контакты</li>
+        </ul>
+      </nav>
+      <button class="nav-button" id="openModalBtn">Заказать изделие</button>
+    </div>
+  </header>
+  <div class="slider">
+    <div id="slide1" class="slide"></div>
+    <div id="slide2" class="slide"></div>
+    <div id="slide3" class="slide"></div>
+  <div class="slider-nav">
+    <a href="#slide1" data-slide="0"></a>
+    <a href="#slide2" data-slide="1"></a>
+    <a href="#slide3" data-slide="2"></a>
+  </div>
+</div>
+
+  <section class="advantages">
+    <h2>Преимущества</h2>
+    <div class="grid-container">
+      <div class="grid-item grid-item-image">
+        <img src="img/model_1.jpeg" alt="Модель с ювелирными изделиями">
+      </div>
+      <div class="grid-item">
+        <div class="grid-content">
+          <div class="grid-item-value">76+</div>
+          <div class="grid-item-description">Магазинов по все России</div>
+        </div>
+        <img src="img/svg/cart.svg" alt="Корзина" class="icon">
+      </div>
+      <div class="grid-item">
+        <div class="grid-content">
+          <div class="grid-item-value">320</div>
+          <div class="grid-item-description">Мастеров</div>
+        </div>
+        <img src="img/svg/people.svg" alt="Люди" class="icon">
+      </div>
+      <div class="grid-item">
+        <div class="grid-content">
+          <div class="grid-item-value">4 512+</div>
+          <div class="grid-item-description">Видов товаров</div>
+        </div>
+        <img src="img/svg/diamond.svg" alt="Бриллиант" class="icon">
+      </div>
+      <div class="grid-item">
+        <div class="grid-content">
+          <div class="grid-item-value">14 дней</div>
+          <div class="grid-item-description">на возврат товара</div>
+        </div>
+        <img src="img/svg/clock.svg" alt="Часы" class="icon">
+      </div>
+      <div class="grid-item">
+        <div class="grid-content">
+          <div class="grid-item-value">24 часа</div>
+          <div class="grid-item-description">Среднее время доставки</div>
+        </div>
+        <img src="img/svg/geo.svg" alt="Локация" class="icon">
+      </div>
+      <div class="grid-item">
+        <div class="grid-content">
+          <div class="grid-item-value">8 172+</div>
+          <div class="grid-item-description">Довольных клиентов</div>
+        </div>
+        <img src="img/svg/heart.svg" alt="Сердце" class="icon">
+      </div>
+      <button class="cta-button" id="openModalBtn_2">
+        <div class="grid-item-description">Оставить заявку</div>
+        <img src="img/svg/arrow-right.svg" alt="Стрелка вправо" class="cta-icon">
+      </button>
+    </div>
+  </section>
+
+  <section class="catalog">
+    <h2>Каталог</h2>
+    <p>Откройте для себя нашу обширную коллекцию ювелирных изделий, предлагающую широкий выбор стилей и дизайнов на любой вкус и случай.</p>
+
+    <div class="catalog-grid">
+
+      <div class="product-card">
+        <div class="product-label">Новинка</div>
+        <img src="img/ring_1.png" alt="Золотое кольцо с бриллиантом" class="product-image">
+        <div class="product-info">
+          <span class="original-price">9 990 ₽</span>
+          <div class="product-price">
+            <span class="current-price">7 990 ₽</span>
+            <span class="discounted-price">-60%</span>
+          </div>
+          <div class="product-description">Кольцо из золота с бриллиантами</div>
+          <button class="details-button">Подробнее</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-label-discount">Еще -25%</div>
+        <img src="img/ring_3.png" alt="Серебряные серьги" class="product-image">
+        <div class="product-info">
+          <span class="original-price">19 990 ₽</span>
+          <div class="product-price">
+            <span class="current-price">17 990 ₽</span>
+            <span class="discounted-price">-60%</span>
+          </div>
+          <div class="product-description">Серебряные серьги</div>
+          <button class="details-button">Подробнее</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-label">Хит продаж</div>
+        <img src="img/ring_2.png" alt="Золотое кольцо с бриллиантом" class="product-image">
+        <div class="product-info">
+          <span class="original-price">9 990 ₽</span>
+          <div class="product-price">
+            <span class="current-price">7 990 ₽</span>
+            <span class="discounted-price">-60%</span>
+          </div>
+          <div class="product-description">Кольцо из золота с бриллиантами</div>
+          <button class="details-button">Подробнее</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-label">Новинка</div>
+        <img src="img/ring_4.png" alt="Серебряное кольцо" class="product-image">
+        <div class="product-info">
+          <span class="original-price">9 990 ₽</span>
+          <div class="product-price">
+            <span class="current-price">7 990 ₽</span>
+            <span class="discounted-price">-60%</span>
+          </div>
+          <div class="product-description">Кольцо из серебра</div>
+          <button class="details-button">Подробнее</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-label">Новинка</div>
+        <img src="img/ring_5.png" alt="Серебряное кольцо" class="product-image">
+        <div class="product-info">
+          <span class="original-price">9 990 ₽</span>
+          <div class="product-price">
+            <span class="current-price">7 990 ₽</span>
+            <span class="discounted-price">-60%</span>
+          </div>
+          <div class="product-description">Кольцо из серебра</div>
+          <button class="details-button">Подробнее</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/ring_6.png" alt="Серебряное кольцо" class="product-image">
+        <div class="product-info">
+          <div class="product-price">
+            <span class="current-price">7 990 ₽</span>
+          </div>
+          <div class="product-description">Кольцо из серебра</div>
+          <button class="details-button">Подробнее</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-label-discount">Еще -25%</div>
+        <img src="img/ring_7.png" alt="Серебряное кольцо" class="product-image">
+        <div class="product-info">
+          <div class="product-price">
+            <span class="current-price">7 990 ₽</span>
+          </div>
+          <div class="product-description">Кольцо из серебра</div>
+          <button class="details-button">Подробнее</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/ring_8.png" alt="Серебряное кольцо" class="product-image">
+        <div class="product-info">
+          <div class="product-price">
+            <span class="current-price">7 990 ₽</span>
+          </div>
+          <div class="product-description">Кольцо из серебра</div>
+          <button class="details-button">Подробнее</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer class="site-footer">
+    <div class="footer-bottom">
+    <p>&copy; 2024 VividGems LTD</p>
+  </div>
+  </footer>
+<!--  MODAL-->
+  <div id="orderModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-form">
+        <div id="formContainer">
+          <h2>Заказать изделие</h2>
+          <p>Оставьте заявку сейчас и мы свяжемся с вами в ближайшее время.</p>
+          <form id="orderForm" class="form-column">
+            <input type="text" id="name" name="name" placeholder="Имя" required>
+            <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+            <button type="submit" id="submitBtn" disabled>Заказать изделие</button>
+          </form>
+        </div>
+        <div id="successMessage" style="display: none;">
+          <img src="/img/svg/succes.svg" alt="success"/>
+          <h2>Спасибо за ваш заказ!</h2>
+          <p>Мы свяжемся с вами в ближайшее время.</p>
+        </div>
+      </div>
+      <div class="modal-image">
+        <img src="img/img_2.png" alt="Счастливая пара">
+      </div>
+      <button class="close" id="closeModalBtn">&times;</button>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/modal.js"></script>
+</body>
+</html>
+
