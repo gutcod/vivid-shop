@@ -166,30 +166,6 @@ nav ul li {
     height: 20px;
 }
 
-@media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul {
-        margin-top: 20px;
-    }
-
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
-
-    .grid-item-image {
-        grid-column: span 1;
-        grid-row: span 1;
-    }
-
-    .cta-button {
-        grid-column: span 1;
-    }
-}
-
 .slider {
     height: 1100px;
     position: relative;
@@ -277,8 +253,8 @@ nav ul li {
 
 @media (max-width: 500px) {
     #slide1 { background-image: url('/img/bg 450 1.png'); }
-    #slide2 { background-image: url('img/mobile_2.png'); }
-    #slide3 { background-image: url('img/mobile_3.png'); }
+    #slide2 { background-image: url('/img/mobile_2.png'); }
+    #slide3 { background-image: url('/img/mobile_3.png'); }
 
     .slide-content h1 {
         font-size: 2.5em;
@@ -406,12 +382,6 @@ nav ul li {
 
 .details-button:hover {
   color: var(--primary-color);
-}
-
-@media (max-width: 768px) {
-  .catalog-grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  }
 }
 
 /*FOOTER*/
@@ -575,14 +545,123 @@ input.error {
   color: #333;
 }
 
-@media (max-width: 768px) {
-  .modal-content {
-    flex-direction: column;
+
+@media (max-width: 450px) {
+  .header-content {
+    padding: 10px;
   }
-  .modal-form, .modal-image {
+
+  .logo img {
+    height: 30px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  nav ul li {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+
+  .slider {
+    height: 80vh;
+  }
+
+  .slide-content {
+    padding: 10px;
+  }
+
+  .slide-content h1 {
+    font-size: 2em;
+  }
+
+  .discount-info {
+    font-size: 1.8em;
+  }
+
+  .time-limited {
+    font-size: 0.9em;
+    padding: 8px 15px;
+  }
+
+  .advantages {
+    padding: 30px 0;
+  }
+
+  .advantages h2 {
+    font-size: 1.5em;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
+  .grid-item {
+    height: auto;
+  }
+
+  .grid-item-image {
+    height: 200px;
+  }
+
+  .grid-item-value {
+    font-size: 2em;
+  }
+
+  .catalog {
+    padding: 30px 0;
+  }
+
+  .catalog h2 {
+    font-size: 1.5em;
+  }
+
+  .catalog p {
+    font-size: 0.9em;
+  }
+
+  .catalog-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 10px;
+  }
+
+  .product-card {
     width: 100%;
   }
-  .modal-image {
-    display: none;
+
+  .product-info {
+    padding: 10px;
+  }
+
+  .current-price {
+    font-size: 1em;
+  }
+
+  .original-price, .discounted-price {
+    font-size: 0.8em;
+  }
+
+  .product-description {
+    font-size: 0.8em;
+  }
+
+  .modal-content {
+    width: 95%;
+    margin: 2% auto;
+  }
+
+  .modal-form {
+    padding: 20px;
+  }
+
+  .modal-form h2 {
+    font-size: 1.5em;
+  }
+
+  #callbackForm input, #callbackForm button {
+    font-size: 14px;
   }
 }
